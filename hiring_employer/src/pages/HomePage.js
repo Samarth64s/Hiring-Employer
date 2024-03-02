@@ -24,26 +24,26 @@ const HomePage = () => {
       </div>
       <div className="grid grid-cols-2 m-8 gap-8">
         <div className="grid grid-cols-2 gap-4">
-          <div className=" bg-white row-span-2 rounded-lg ">
+          <div className=" bg-white row-span-1 rounded-lg ">
             <JobPostsComponent />
           </div>
-          <div className="bg-white row-span-2 rounded-lg ">
+          <div className="bg-white row-span-1 rounded-lg ">
             <TotalApplicationComponent />
           </div>
-          <div className="bg-white row-span-2 rounded-lg">
+          <div className="bg-white row-span-1 rounded-lg">
             <InterviewScheduleComponent />
           </div>
-          <div className="bg-white row-span-2 rounded-lg">
+          <div className="bg-white row-span-1 rounded-lg">
             <ApplicationOnHoldComponent />
           </div>
         </div>
-        <div className="bg-white row-span-3 rounded-lg">
+        <div className="bg-white row-span-2 rounded-lg">
           <HiringPipelineComponent />
         </div>
         <div className="bg-white row-span-5 rounded-lg">
           <RecentJobPostsComponent />
         </div>
-        <div className="bg-white row-span-3 rounded-lg">
+        <div className="bg-white row-span-4 rounded-lg">
           <UpcomingInterviewsComponent />
         </div>
       </div>
