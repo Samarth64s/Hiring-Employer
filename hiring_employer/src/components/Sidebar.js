@@ -7,13 +7,13 @@ import { BsChatSquareDotsFill } from "react-icons/bs";
 import { AiFillFund } from "react-icons/ai";
 import { ImBriefcase } from "react-icons/im";
 import { IoIosPeople } from "react-icons/io";
-import { HiReceiptPercent } from "react-icons/hi2";
 import { FaBuildingColumns } from "react-icons/fa6";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaPeopleLine } from "react-icons/fa6";
 import { RiFolderSettingsFill } from "react-icons/ri";
 import { BiSolidBarChartAlt2 } from "react-icons/bi";
 import { IoSettings } from "react-icons/io5";
+import { LuBadgePercent } from "react-icons/lu";
 
 const Sidebar = () => {
   const [selectedOption, setSelectedOption] = useState("home");
@@ -111,7 +111,7 @@ const Sidebar = () => {
           to="/newHires"
         >
           <div className="flex items-center gap-4">
-            <HiReceiptPercent />
+            <LuBadgePercent />
             New Hires
           </div>
           <MdKeyboardArrowRight />

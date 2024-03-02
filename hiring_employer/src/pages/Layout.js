@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
         <div className="flex w-1/6 p-4 bg-black">
           <Sidebar />
         </div>
-        <div className="flex-1 flex flex-col bg-slate-100 gap-8">
+        <div className="flex-1 flex flex-col bg-slate-100">
           <Header />
           <main>{children}</main>
           {/* <Footer /> */}
