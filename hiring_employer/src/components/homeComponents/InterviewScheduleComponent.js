@@ -48,13 +48,13 @@ const data = [
   
 const InterviewScheduleComponent = () => {
     return ( <div className=" w-full h-full flex items-center">
-    <div className=" w-40 m-3 flex flex-col gap-4 h-30">
+    <div className=" w-40 m-3 flex flex-col gap-4">
       <h1 className="text-lg">Interview Schedule</h1>
       <p className="text-3xl font-bold text-green-700">125</p>
       <p className="text-orange-500 text-lg font-bold">+1.5%</p>
     </div>
   
-   <ResponsiveContainer width="50%" height="80%">
+   <ResponsiveContainer width="50%" height="60%">
           <LineChart width={300} height={100} data={data}>
             <Line type="monotone" dataKey="pv" stroke="orange" strokeWidth={2} />
           </LineChart>

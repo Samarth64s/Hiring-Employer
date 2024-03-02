@@ -49,13 +49,13 @@ const data = [
 const JobPostsComponent = () => {
   return (
     <div className=" w-full h-full flex items-center">
-      <div className=" w-40 m-3 flex flex-col gap-4 h-30">
+      <div className=" w-40 m-3 flex flex-col gap-4">
         <h1 className="text-lg">Job Posts</h1>
         <p className="text-3xl font-bold text-green-700">2,456</p>
         <p className="text-gray-400 text-lg font-bold">+2.5%</p>
       </div>
 
-      <ResponsiveContainer width="50%" height="80%">
+      <ResponsiveContainer width="50%" height="60%">
         <LineChart width={300} height={100} data={data}>
           <Line
             type="monotone"

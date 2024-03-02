@@ -24,16 +24,16 @@ const HomePage = () => {
       </div>
       <div className="grid grid-cols-2 m-8 gap-8">
         <div className="grid grid-cols-2 gap-4">
-          <div className=" bg-white row-span-1 rounded-lg ">
+          <div className=" bg-white rounded-lg ">
             <JobPostsComponent />
           </div>
-          <div className="bg-white row-span-1 rounded-lg ">
+          <div className="bg-white rounded-lg ">
             <TotalApplicationComponent />
           </div>
-          <div className="bg-white row-span-1 rounded-lg">
+          <div className="bg-white rounded-lg">
             <InterviewScheduleComponent />
           </div>
-          <div className="bg-white row-span-1 rounded-lg">
+          <div className="bg-white rounded-lg">
             <ApplicationOnHoldComponent />
           </div>
         </div>

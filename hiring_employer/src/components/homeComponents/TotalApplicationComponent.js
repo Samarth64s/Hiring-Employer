@@ -48,13 +48,13 @@ const data = [
   
 const TotalApplicationComponent = () => {
   return ( <div className=" w-full h-full flex items-center">
-  <div className=" w-40 m-3 flex flex-col gap-4 h-30">
+  <div className=" w-40 m-3 flex flex-col gap-4">
     <h1 className="text-lg">Total Application</h1>
     <p className="text-3xl font-bold text-green-700">4,561</p>
     <p className="text-red-500 text-lg font-bold">-4.4%</p>
   </div>
 
- <ResponsiveContainer width="50%" height="80%">
+ <ResponsiveContainer width="50%" height="60%">
         <LineChart width={300} height={100} data={data}>
           <Line type="monotone" dataKey="pv" stroke="red" strokeWidth={2} />
         </LineChart>
