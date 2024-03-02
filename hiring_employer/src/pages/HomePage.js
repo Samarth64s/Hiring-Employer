@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <div className="p-4">
       <div className="flex justify-between m-4">
-        <h1 className="font-semibold text-2xl">Overview</h1>
+        <h1 className="font-bold text-2xl">Overview</h1>
         <button
           onClick={handleCreateJob}
           className="w-36 h-12 rounded-lg bg-gray-800 text-white"
