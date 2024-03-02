@@ -19,7 +19,7 @@ const Sidebar = () => {
   const [selectedOption, setSelectedOption] = useState("home");
 
   return (
-    <div className="text-white m-5 w-72">
+    <div className="text-white m-5 w-full">
       <div className="flex items-center gap-2 mb-10 font-semibold text-2xl">
         <PiSketchLogo />
         Logo
